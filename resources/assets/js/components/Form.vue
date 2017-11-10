@@ -8,7 +8,7 @@
       <label for="content">内容</label>
       <textarea v-model="content" name="content" id="content" class="form-control"></textarea>
     </div>
-    <button class="btn btn-default">送信</button>
+    <button class="btn btn-default">登録</button>
     <transition name="fade">
       <div v-if="message" class="alert alert-success" role="alert">{{message}}</div>
     </transition>
