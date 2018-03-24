@@ -26,7 +26,7 @@ export default {
   },
   methods: {
     saveData : function () {
-      axios.post('/api/posts/', {
+      axios.post('/api/posts', {
         title: this.title,
         content: this.content,
       })
